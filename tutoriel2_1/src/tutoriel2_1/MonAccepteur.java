@@ -4,7 +4,7 @@ import tutoriels.tutoriel2_1.Accepteur;
 
 public class MonAccepteur implements Accepteur{
 
-
+//nouvelle classe.
 	@Override
 	public boolean accepter(int valeur) {
 		
