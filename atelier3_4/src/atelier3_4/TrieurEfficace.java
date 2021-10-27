@@ -6,6 +6,7 @@ import tutoriels.atelier3_4.Trieur;
 
 public class TrieurEfficace<C extends Comparable<C>> implements Trieur<C>{
 
+	//Test de commit et push
 	@Override
 	public Tableau<C> trier(Tableau<C> entree) {
 		Tableau<C> resultat = new MonTableau<C>();
