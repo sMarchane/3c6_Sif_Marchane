@@ -8,7 +8,8 @@ public class TesteurDeMappageTree extends TesteurDeMappageAbstrait {
 	@Override
 	public void accederAuClesDansOrdre(Map<String, Integer> map, int nombreOperations) {
 		
-		
+		TreeMap<String, Integer> sorted = new TreeMap<>();
+		sorted.putAll(map);
 	}
 
 	@Override

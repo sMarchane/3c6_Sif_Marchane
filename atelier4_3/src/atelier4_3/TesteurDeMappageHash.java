@@ -8,7 +8,8 @@ public class TesteurDeMappageHash extends TesteurDeMappageAbstrait  {
 	@Override
 	public void accederAuClesDansOrdre(Map<String, Integer> map, int nombreOperations) {
 		
-		
+		HashMap<String, Integer> sorted = new HashMap<>();
+		sorted.putAll(map);
 	}
 
 	@Override
