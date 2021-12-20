@@ -6,6 +6,7 @@ import tutoriels.liste.ListeJava;
 
 public class MonAtelier5_1 extends Atelier5_1{
 
+	//
 	public static void main(String[] args) {
 		new MonAtelier5_1().valider();
 	}

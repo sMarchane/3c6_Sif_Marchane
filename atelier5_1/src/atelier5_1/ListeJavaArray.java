@@ -4,6 +4,7 @@ import tutoriels.liste.ListeJava;
 
 public class ListeJavaArray <E extends Object> extends ListeJava<E>{
 
+	//
 	private E[] elements;
 	
 	public ListeJavaArray(Class<E> typeElement) {

@@ -7,6 +7,7 @@ import tutoriels.liste.ListeJava;
 
 public abstract class TesteurDeListeAbstrait implements TesteurDeListe{
 
+	//
 	private static Random alea = new Random();
 	
 	@Override

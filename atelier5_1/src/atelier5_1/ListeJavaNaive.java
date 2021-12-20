@@ -5,6 +5,7 @@ import tutoriels.liste.ListeJava;
 
 public class ListeJavaNaive<E extends Object> extends ListeJava<E> {
 
+	//
 	private E[] elements = nouveauTableau(0);
 	
 	
